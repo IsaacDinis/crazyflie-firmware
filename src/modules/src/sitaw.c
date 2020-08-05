@@ -36,14 +36,14 @@
 #include "stabilizer.h"
 #include "motors.h"
 
-///* Trigger object used to detect Free Fall situation. */
-//static trigger_t sitAwFFAccWZ;
-//
-///* Trigger object used to detect At Rest situation. */
-//static trigger_t sitAwARAccZ;
-//
-///* Trigger object used to detect Tumbled situation. */
-//static trigger_t sitAwTuAcc;
+/* Trigger object used to detect Free Fall situation. */
+static trigger_t sitAwFFAccWZ;
+
+/* Trigger object used to detect At Rest situation. */
+static trigger_t sitAwARAccZ;
+
+/* Trigger object used to detect Tumbled situation. */
+static trigger_t sitAwTuAcc;
 
 #if defined(SITAW_ENABLED)
 
